@@ -4,7 +4,6 @@ namespace Kalkulator
 {
     abstract class Operation
     {
-        // każda klasa pochodna musi mieć swoją wersję Execute
         public abstract double Execute(double a, double b);
     }
 
