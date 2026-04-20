@@ -4,7 +4,7 @@ namespace Kalkulator
 {
     class Calculator
     {
-        // kalkulator przechowuje aktualną operację
+        
         private Operation currentOperation;
 
         public void SetOperation(Operation op)
@@ -12,7 +12,6 @@ namespace Kalkulator
             currentOperation = op;
         }
 
-        // obliczenia są delegowane do obiektu operacji
         public double Calculate(double a, double b)
         {
             if (currentOperation == null)
