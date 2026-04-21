@@ -10,15 +10,11 @@ namespace Kalkulator
             Console.WriteLine();
 
             double a = 0, b = 0;
-
-            // wczytanie pierwszej liczby
             Console.Write("Podaj pierwszą liczbę: ");
             while (!double.TryParse(Console.ReadLine(), out a))
             {
                 Console.Write("Niepoprawna wartość, wpisz jeszcze raz: ");
             }
-
-            // wczytanie drugiej liczby
             Console.Write("Podaj drugą liczbę: ");
             while (!double.TryParse(Console.ReadLine(), out b))
             {
