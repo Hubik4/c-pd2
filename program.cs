@@ -63,11 +63,11 @@ namespace Kalkulator
             }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine("Błąd: " + e.Message);
+                Console.WriteLine("Bład: " + e.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine("Coś poszło nie tak: " + e.Message);
+                Console.WriteLine("blad" + e.Message);
             }
 
             Console.WriteLine();
