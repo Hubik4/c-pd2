@@ -6,19 +6,19 @@ namespace Kalkulator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Kalkulator matematyczny ===");
+            Console.WriteLine("Kalkulator matematyczny");
             Console.WriteLine();
 
             double a = 0, b = 0;
             Console.Write("Podaj pierwszą liczbę: ");
             while (!double.TryParse(Console.ReadLine(), out a))
             {
-                Console.Write("Niepoprawna wartość, wpisz jeszcze raz: ");
+                Console.Write("Niepoprawna wartość wpisz jeszcze raz: ");
             }
             Console.Write("Podaj drugą liczbę: ");
             while (!double.TryParse(Console.ReadLine(), out b))
             {
-                Console.Write("Niepoprawna wartość, wpisz jeszcze raz: ");
+                Console.Write("Niepoprawna wartość wpisz jeszcze raz: ");
             }
 
             Console.WriteLine();
@@ -48,7 +48,7 @@ namespace Kalkulator
                     op = new Divide();
                     break;
                 default:
-                    Console.WriteLine("Nieznana opcja, kończę program.");
+                    Console.WriteLine("Nieznana opcja kończę program.");
                     return;
             }
 
@@ -71,7 +71,7 @@ namespace Kalkulator
             }
 
             Console.WriteLine();
-            Console.WriteLine("Naciśnij Enter żeby zakończyć...");
+            Console.WriteLine("Naciśnij Enter żeby zakończyć");
             Console.ReadLine();
         }
     }
