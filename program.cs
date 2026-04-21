@@ -6,7 +6,7 @@ namespace Kalkulator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Kalkulator matematyczny");
+            Console.WriteLine("Kalkulator");
             Console.WriteLine();
 
             double a = 0, b = 0;
