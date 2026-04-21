@@ -65,10 +65,7 @@ namespace Kalkulator
             {
                 Console.WriteLine("Bład: " + e.Message);
             }
-            catch (Exception e)
-            {
-                Console.WriteLine("blad" + e.Message);
-            }
+           
 
             Console.WriteLine();
             Console.WriteLine("Naciśnij Enter żeby zakończyć");
